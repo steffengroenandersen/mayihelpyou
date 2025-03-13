@@ -1,7 +1,15 @@
+import Header from "../components/layout/Header";
+
 export default function Dashboard() {
   return (
     <>
-      <h1>Dashboard</h1>
+      <Header />
+      {/* Body */}
+      <main>
+        <h1>Dashboard</h1>
+      </main>
+
+      {/* Footer */}
     </>
   );
 }
