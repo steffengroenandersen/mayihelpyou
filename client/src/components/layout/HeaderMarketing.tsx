@@ -29,6 +29,13 @@ export default function HeaderMarketing() {
                   <Button variant="link">Pricing</Button>
                 </Link>
               </div>
+
+              {/* TEMPORARY LINK TO APPLICATION INTERFACE */}
+              <div>
+                <Link to="/app/dashboard">
+                  <Button variant="link">Dashboard</Button>
+                </Link>
+              </div>
             </div>
           </div>
           <div>
