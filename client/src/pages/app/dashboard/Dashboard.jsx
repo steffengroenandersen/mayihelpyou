@@ -1,6 +1,7 @@
 import Header from "../../../components/layout/Header";
 import { Button } from "../../../components/ui/button";
 import StreamCard from "./StreamCard";
+import StreamCreationDialog from "./StreamCreationDialog";
 
 const streamInfo = [
   { id: 1, name: "Frontpage Stream", status: "Active" },
@@ -23,7 +24,7 @@ export default function Dashboard() {
 
         {/* Stream controls */}
         <div>
-          <Button>Create new stream</Button>
+          <StreamCreationDialog />
         </div>
 
         {/* Streams */}
