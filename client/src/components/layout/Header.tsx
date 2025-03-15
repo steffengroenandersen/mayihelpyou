@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Header() {
   return (
     <>
@@ -6,12 +8,23 @@ export default function Header() {
           <div className="flex gap-5">
             <div>How May I Help You?</div>
             <div className="flex gap-2">
-              <div>Dashboard</div>
-              <div>Streams</div>
+              <Link to="/app/dashboard">
+                <div>Dashboard</div>
+              </Link>
+
+              <Link to="/app/streams">
+                <div>Streams</div>
+              </Link>
+
+              <Link to="/app/studio/1">
+                <div>Studio</div>
+              </Link>
             </div>
           </div>
           <div>
-            <div>Account</div>
+            <Link to="/app/account">
+              <div>Account</div>
+            </Link>
           </div>
         </nav>
       </header>
