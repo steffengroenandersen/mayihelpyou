@@ -1,5 +1,15 @@
 import Header from "../../../components/layout/Header";
 import { Button } from "../../../components/ui/button";
+import StreamCard from "./StreamCard";
+
+const streamInfo = [
+  { id: 1, name: "Frontpage Stream", status: "Active" },
+  { id: 2, name: "Second Stream", status: "Inactive" },
+  { id: 3, name: "Third Stream", status: "Active" },
+  { id: 4, name: "Fourth Stream", status: "Active" },
+  { id: 5, name: "Fifth Stream", status: "Active" },
+  { id: 6, name: "Sixth Stream", status: "Active" },
+];
 export default function Dashboard() {
   return (
     <>
@@ -17,18 +27,10 @@ export default function Dashboard() {
         </div>
 
         {/* Streams */}
-        <div className="flex gap-2 flex-wrap">
-          <div className="bg-white border rounded-md min-w-72 p-2 flex flex-col gap-4">
-            <div className="bg-blue-200 rounded-lg p-2 min-h-20 flex justify-center items-center">
-              Frontpage Stream
-            </div>
-            <div>
-              <span className="font-bold">Status: </span>Active
-            </div>
-            <div className="self-end">
-              <Button>Manage stream</Button>
-            </div>
-          </div>
+        <div className="flex flex-wrap gap-4">
+          {streamInfo.map((stream) => (
+            <StreamCard key={stream.id} stream={stream} />
+          ))}
         </div>
       </main>
 
