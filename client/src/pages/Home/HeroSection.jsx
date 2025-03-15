@@ -1,5 +1,6 @@
 import { Button } from "../../components/ui/button";
 import heroImage from "../../assets/stream-hero-section.jpeg";
+import { Link } from "react-router-dom";
 
 export default function HeroSection() {
   return (
@@ -18,14 +19,15 @@ export default function HeroSection() {
         </div>
         <div className="flex gap-5">
           <div>
-            <Button>Get started</Button>
+            <Link to="/register">
+              <Button>Get started</Button>
+            </Link>
           </div>
           <div>
-            <Button variant="secondary">Get started</Button>
+            <Button variant="secondary">Learn more</Button>
           </div>
         </div>
         <div>
-          {" "}
           <img src={heroImage} alt="Hero" className="w-full h-auto rounded-lg md:rounded-3xl" />
         </div>
       </section>

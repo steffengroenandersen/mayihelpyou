@@ -1,5 +1,6 @@
 import HeaderMarketing from "../../components/layout/HeaderMarketing";
 import HeroSection from "./HeroSection";
+import Main from "../../components/layout/Main";
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
       {/* Header */}
       <HeaderMarketing />
 
-      <main className="flex flex-col w-full px-5 md:px-20 py-5">
+      <Main>
         {/* Hero section */}
         <HeroSection />
 
@@ -18,9 +19,9 @@ export default function Home() {
         {/* Pricing plan */}
 
         {/* CTA Section */}
+      </Main>
 
-        {/* Footer */}
-      </main>
+      {/* Footer */}
     </>
   );
 }
