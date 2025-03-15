@@ -1,19 +1,16 @@
 import { Button } from "../ui/button";
 import { Link } from "react-router-dom";
-
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "../ui/dropdown-menu";
 
 export default function HeaderMarketing() {
   return (
     <>
-      <header className="bg-white h-[80px] px-10">
+      <header className="bg-white h-[80px] px-5 md:px-10">
         <nav className="flex justify-between items-center h-full">
           <div className="flex gap-5">
             <div className="flex items-center">
