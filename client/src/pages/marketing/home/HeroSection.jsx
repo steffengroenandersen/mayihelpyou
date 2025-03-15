@@ -1,5 +1,5 @@
-import { Button } from "../../components/ui/button";
-import heroImage from "../../assets/stream-hero-section.jpeg";
+import { Button } from "../../../components/ui/button";
+import heroImage from "../../../assets/stream-hero-section.jpeg";
 import { Link } from "react-router-dom";
 
 export default function HeroSection() {

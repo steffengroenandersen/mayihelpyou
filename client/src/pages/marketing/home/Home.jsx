@@ -1,6 +1,6 @@
-import HeaderMarketing from "../../components/layout/HeaderMarketing";
+import HeaderMarketing from "../../../components/layout/HeaderMarketing";
 import HeroSection from "./HeroSection";
-import Main from "../../components/layout/Main";
+import Main from "../../../components/layout/Main";
 
 export default function Home() {
   return (

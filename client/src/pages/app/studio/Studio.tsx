@@ -18,7 +18,7 @@ export default function Studio() {
             </div>
 
             <div className="flex gap-2 w-full justify-center">
-              <div className="w-3/5">
+              <div className="w-3/7">
                 <img src={studioPlaceholder} alt="Hero" className="w-full h-auto rounded-lg md:rounded-3xl" />
               </div>
               <div className="border w-1/5">Chat</div>

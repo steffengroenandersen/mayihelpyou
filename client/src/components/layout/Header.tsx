@@ -6,7 +6,9 @@ export default function Header() {
       <header className="bg-white h-[80px] px-10">
         <nav className="flex justify-between items-center h-full">
           <div className="flex gap-5">
-            <div>How May I Help You?</div>
+            <Link to="/app/dashboard">
+              <div>How May I Help You?</div>
+            </Link>
             <div className="flex gap-2">
               <Link to="/app/dashboard">
                 <div>Dashboard</div>

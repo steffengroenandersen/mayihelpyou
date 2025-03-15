@@ -1,8 +1,8 @@
-import HeaderMarketing from "../components/layout/HeaderMarketing";
-import { Button } from "../components/ui/button";
-import { Input } from "../components/ui/input";
+import HeaderMarketing from "../../../components/layout/HeaderMarketing";
+import { Button } from "../../../components/ui/button";
+import { Input } from "../../../components/ui/input";
 import { useState } from "react";
-import Main from "../components/layout/Main";
+import Main from "../../../components/layout/Main";
 
 export default function Register() {
   const [formData, setFormData] = useState({

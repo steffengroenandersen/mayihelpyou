@@ -1,8 +1,8 @@
-import HeaderMarketing from "../components/layout/HeaderMarketing";
+import HeaderMarketing from "../../../components/layout/HeaderMarketing";
 import { useState } from "react";
-import { Button } from "../components/ui/button";
-import { Input } from "../components/ui/input";
-import Main from "../components/layout/Main";
+import { Button } from "../../../components/ui/button";
+import { Input } from "../../../components/ui/input";
+import Main from "../../../components/layout/Main";
 
 export default function Login() {
   const [formData, setFormData] = useState({

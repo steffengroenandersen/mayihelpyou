@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home/Home";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import Dashboard from "./pages/Dashboard";
-import Streams from "./pages/Streams";
-import Stream from "./pages/Stream";
+import Home from "./pages/marketing/home/Home";
+import Login from "./pages/marketing/login/Login";
+import Register from "./pages/marketing/register/Register";
+import Dashboard from "./pages/marketing/dashboard/Dashboard";
+import Streams from "./pages/app/streams/Streams";
+import Stream from "./pages/app/stream/Stream";
 import Studio from "./pages/app/studio/Studio";
 import Account from "./pages/app/account/Acconut";
 

@@ -1,5 +1,5 @@
-import Header from "../components/layout/Header";
-import { Button } from "../components/ui/button";
+import Header from "../../../components/layout/Header";
+import { Button } from "../../../components/ui/button";
 export default function Dashboard() {
   return (
     <>
