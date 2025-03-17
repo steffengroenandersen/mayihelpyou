@@ -15,7 +15,7 @@ export default function Dashboard() {
   return (
     <>
       <Header />
-      <main className="px-96 py-5 gap-5 flex flex-col">
+      <main className="px-36 py-5 gap-5 flex flex-col">
         {/* Introduction */}
         <div>
           <h1 className="text-2xl font-bold">Dashboard</h1>
